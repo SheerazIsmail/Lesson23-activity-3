@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Methods</title>
+        <body>
+            <center>
+                <h1> JavaScrip Arrays</h1>
+                <h2> join(), pop(), push(),</h2>
+
+              
+                <p id="result1"></p>
+                <p id="result2"></p>
+                <p id="result3"></p>
+                <p id="result4"></p>
+
+                <script>
+                    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+                    document.getElementById("result1").innerHTML = "Original array: " + fruits;
+                     
+                   document.getElementById("result2").innerHTML = "Array with join(); " +
+                   fruits.join(" * ");
+
+                   fruits.push("Grapes");
+                   document.getElementById("result3").innerHTML = "Array after push(): " + fruits;
+
+                   fruits.pop();
+                   document.getElementById("result4").innerHTML = "Array after pop(): " + fruits;
+
+
+
+                </script>
+            </center>
+
+        </body>
+    </head>
+</html>
